@@ -4,8 +4,8 @@
 }
 
 @font-face {
-    font-family: 'Satoshi';
-    src: url('./assets/fonts/Satoshi/Satoshi-Variable.woff2') format('woff2');
+    font-family: "Satoshi";
+    src: url("./assets/fonts/Satoshi/Satoshi-Variable.woff2") format("woff2");
     font-weight: 100 900;
     font-style: normal;
     font-display: swap;
@@ -15,12 +15,17 @@
     box-sizing: border-box;
 }
 
-
-html, body {
+html,
+body {
     background-color: var(--bg);
     margin: 0;
     padding: 0;
-    font-family: 'Satoshi', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    font-family:
+        "Satoshi",
+        system-ui,
+        -apple-system,
+        BlinkMacSystemFont,
+        sans-serif;
     font-weight: 400;
     color: var(--fg);
     scrollbar-width: none;
@@ -117,7 +122,9 @@ nav .links a:hover {
     height: 0%;
     width: 100%;
     border-radius: 1em;
-    transition: background-color 0.3s ease-out, height 0.05s ease-out;
+    transition:
+        background-color 0.3s ease-out,
+        height 0.05s ease-out;
 }
 
 .post-container {
@@ -139,7 +146,9 @@ nav .links a:hover {
     text-decoration: none;
     position: relative;
     opacity: 0;
-    transition: all 0.3s ease-in-out, scale 0.1s ease-in-out;
+    transition:
+        all 0.3s ease-in-out,
+        scale 0.1s ease-in-out;
     overflow: hidden;
 }
 
@@ -209,7 +218,8 @@ footer {
     width: 100%;
 }
 
-footer span, footer a {
+footer span,
+footer a {
     color: var(--fg);
     font-weight: 500;
     letter-spacing: 0.05em;
